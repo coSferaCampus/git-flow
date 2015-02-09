@@ -15,4 +15,8 @@ class Calc
   def multiplication
     @a * @b
   end
+
+  def division
+    @a / @b unless @b == 0
+  end
 end
