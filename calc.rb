@@ -15,4 +15,8 @@ class Calc
   def multiplication
     @a * @b
   end
+
+  def mod
+    @a % @b
+  end
 end
